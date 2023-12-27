@@ -1,5 +1,5 @@
 %% 拡張H∞制御のLMI解法で外乱オブザーバ設計
-% バネマスダンパ(Mass-Spring-Damper)系への適用
+% バネマスダンパ(Mass-Spring-Damper)系への適用 不確かさパターン①
 
 clear;
 s = tf('s');
