@@ -122,7 +122,7 @@ legend('Ta*Wa','1.1*Ta*Wa*delay','Location','southwest')
 
 % Simulinkモデルの実行
 
-simumodel = 'DOB_MSD_LMI';
+simumodel = 'Hinf_DOB_MSD_LMI';
 open_system(simumodel)
 set_param(simumodel+"/不確かさ切替設定",'Value','0') %不確かさなし設定
 set_param(simumodel+"/制御入力有無",'sw','0') %制御入力なし設定
