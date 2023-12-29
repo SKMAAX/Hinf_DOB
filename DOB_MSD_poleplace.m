@@ -63,7 +63,7 @@ L = -place(A',C',p)';
 % bodemag(Ta,1/Wa);
 % Simulinkモデルの実行
 
-simumodel = 'DOB_MSD_poleplace';
+simumodel = 'DOB_MSD_poleplace_sim';
 open_system(simumodel)
 set_param(simumodel+"/不確かさ(ワーストケース)の有無",'sw','0') %不確かさなし設定
 set_param(simumodel+"/制御入力有無",'sw','0') %制御入力なし設定
